@@ -10,6 +10,8 @@ const ROWS2 = 40
 const TOP_COLOR = 'green'
 const RIGHT_COLOR = 'pink'
 
+const app = new Application()
+
 const canvas = document.querySelector('canvas')
 const context = canvas.getContext('2d')
 
